@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container {
+    background-color: #8f6969;
+    width: 400px;
+    padding: 51px;
+}
+
+.container > h1  {
+    color: #424242;
+    font: Georgia, serif;
+}
+
+.container > h4  {
+    color: #111010;
+    font: Georgia, serif;
+    padding-left: 0px;
+    font-weight: 700;
+
+}
+
+ul {
+    padding-left: 45px;
+}
+
+img {
+    width: 350px;
+    height: auto;
+}
